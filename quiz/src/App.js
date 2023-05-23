@@ -21,6 +21,7 @@ const App = () => {
     return <Loading />;
   }
 
+  
   const { incorrect_answers, correct_answer, question } = questions[index];
   const answers = [...incorrect_answers];
   if (incorrect_answers.length > 1) {
